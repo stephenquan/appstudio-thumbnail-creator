@@ -4,8 +4,8 @@ This AppStudio App demonstrates how you can use one of ESRI Calcuite UI Icons as
 
  1. Navigate to https://esri.github.io/calcite-ui-icons/
  2. Pick an icon and view it at 32x32, e.g. applications-32.svg
- 3. Copy it's raw.githubusercontent.com URL
- 4. Replace the URL in the app
+ 3. Copy it's raw.githubusercontent.com URL, e.g. https://raw.githubusercontent.com/Esri/calcite-ui-icons/master/icons/applications-32.svg
+ 4. Replace the URL in both `thumbnailCreator` and `appiconCreator` sections of the app
  5. Run the app and click on thumbnail and appicon sections which will replace thumbnail.png and appicon.png files
 
 Explanation
