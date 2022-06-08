@@ -5,12 +5,14 @@ import ArcGIS.AppFramework 1.0
 
 App {
     id: app
-    width: 400
-    height: 640
+    width: 640
+    height: 480
 
-    Column {
-        anchors.fill: parent
+    Row {
+        anchors.left: parent.left
+        anchors.top: parent.top
         anchors.margins: 10
+        spacing: 10
 
         Frame {
             contentWidth: thumbnailCreator.width
